@@ -27,6 +27,7 @@ import { motion } from "framer-motion";
 
 export default function Breathing() {
     // Page on the importance of breathing exercises in meditation
+    const router = useRouter();
     return (
         <div>
             <Head>
