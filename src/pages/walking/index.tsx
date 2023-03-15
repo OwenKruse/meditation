@@ -71,7 +71,11 @@ export default function Breathing() {
                                                 alignItems: 'center',
                                                 marginTop: '1rem',
                                             }
-                                        } variant="contained" >Back to Start</Button>
+                                        } variant="contained" onClick={
+                                            () => {
+                                                router.push('/')
+                                            }
+                                        } >Back to Start</Button>
                                     </CardContent>
                                 </Box>
                             </Card>
